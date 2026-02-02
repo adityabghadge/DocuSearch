@@ -1,0 +1,10 @@
+Deterministic chunking means the chunking algorithm is purely a function of the input text and configuration.
+Given the same input text, chunk_size_chars, and overlap_chars, it always produces the same ordered list of chunks.
+
+Each chunk stores:
+- chunk_index
+- text
+- char_start / char_end offsets
+- token_count estimate
+
+Determinism matters because we want reproducible indexing across Docker rebuilds.

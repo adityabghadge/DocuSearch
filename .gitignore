@@ -1,0 +1,19 @@
+# Secrets
+.env
+
+# OS / Editor junk
+.DS_Store
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+
+# Docker volumes (named volumes not tracked, but keep safe)
+pgdata/
+qdrantdata/
+
+# Test / coverage artifacts
+.coverage
+pytest_cache/

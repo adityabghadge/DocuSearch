@@ -1,0 +1,52 @@
+[
+  {
+    "id": "dedupe_sha256",
+    "query": "How does DocuSearch prevent duplicate uploads?",
+    "expected_source": "02_ingestion.txt"
+  },
+  {
+    "id": "deterministic_chunking",
+    "query": "What does deterministic chunking mean in this project?",
+    "expected_source": "03_chunking.txt"
+  },
+  {
+    "id": "qdrant_vector_search",
+    "query": "What component handles vector similarity search and how is it queried?",
+    "expected_source": "04_search_qdrant.txt"
+  },
+  {
+    "id": "retrieval_latency",
+    "query": "Where does the API report retrieval latency and in what field?",
+    "expected_source": "04_search_qdrant.txt"
+  },
+  {
+    "id": "qa_citations",
+    "query": "How does the Q&A endpoint guarantee citations are included?",
+    "expected_source": "05_qa_citations.txt"
+  },
+  {
+    "id": "reindex",
+    "query": "How do you rebuild the entire index from scratch?",
+    "expected_source": "06_reindex.txt"
+  },
+  {
+    "id": "chunk_metadata",
+    "query": "What chunk metadata is stored for each chunk?",
+    "expected_source": "03_chunking.txt"
+  },
+  {
+    "id": "docker_run_steps",
+    "query": "What are the exact docker compose commands to run the project and tests?",
+    "expected_source": "01_overview.md"
+  },
+  {
+    "id": "qdrant_payload_mapping",
+    "query": "What identifiers are stored in Qdrant payload for each chunk?",
+    "expected_source": "04_search_qdrant.txt"
+  },
+  {
+    "id": "grounding_behavior",
+    "query": "What should the system answer if the documents don't contain the information?",
+    "expected_source": "05_qa_citations.txt"
+  }
+]
