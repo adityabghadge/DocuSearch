@@ -94,7 +94,7 @@ Swagger UI:
 
 ---
 
-## Resume Claims — Proof Mapping
+## Proof Mapping
 
 ### 1) 1,000+ chunks indexed
 - Run `scripts/demo_run.py`
